@@ -1,17 +1,13 @@
 const jsonld = require("jsonld");
 const { chromium } = require("playwright");
 
-const scrapeRecipe = async (req, res) => {
-  console.log("url: ", req.body.url);
-
-  if (!req.body.url) {
-    res.status(400).send(`Bad request. URL: ${req.body.url}`);
-  }
+const scrapeRecipe = async (url) => {
+  console.log("url: ", url);
 
   const browser = await chromium.launch();
   const context = await browser.newContext();
   const page = await context.newPage();
-  await page.goto(req.body.url);
+  await page.goto(url);
 
   const handle = await page.$('script[type="application/ld+json"]');
   const text = await handle.innerText();
@@ -32,7 +28,7 @@ const scrapeRecipe = async (req, res) => {
   }
 
   await browser.close();
-  res.json(ingredients);
+  return ingredients;
 };
 
 module.exports = scrapeRecipe;
