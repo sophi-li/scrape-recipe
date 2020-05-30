@@ -1,6 +1,6 @@
 {
   "name": "scrape-recipe",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "scrape recipe websites with playwright",
   "main": "index.js",
   "scripts": {
