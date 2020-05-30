@@ -1,0 +1,27 @@
+{
+  "name": "scrape-recipe",
+  "version": "1.0.1",
+  "description": "scrape recipe websites with playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophi-li/scrape-recipe.git"
+  },
+  "keywords": [
+    "recipe",
+    "scrape"
+  ],
+  "author": "Sophia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sophi-li/scrape-recipe/issues"
+  },
+  "homepage": "https://github.com/sophi-li/scrape-recipe#readme",
+  "dependencies": {
+    "jsonld": "^3.1.1",
+    "playwright": "^1.0.2"
+  }
+}
