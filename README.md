@@ -1,4 +1,5 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/sophi-li/scrape-recipe.svg?style=for-the-badge) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sophi-li/scrape-recipe.svg?style=for-the-badge) ![GitHub](https://img.shields.io/github/license/sophi-li/scrape-recipe.svg?style=for-the-badge)
+
+![GitHub top language](https://img.shields.io/github/languages/top/sophi-li/scrape-recipe.svg?style=for-the-badge) ![GitHub repo size](https://img.shields.io/github/repo-size/sophi-li/scrape-recipe.svg?style=for-the-badge) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sophi-li/scrape-recipe.svg?style=for-the-badge) ![GitHub](https://img.shields.io/github/license/sophi-li/scrape-recipe.svg?style=for-the-badge)
 
 # Scrape Recipe
 
